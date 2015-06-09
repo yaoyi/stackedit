@@ -1,128 +1,48 @@
-Welcome to StackEdit!
+欢迎使用StackEdit(栈书)!
 ===================
 
 
-Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
+Hey! 这是你在**StackEdit**[^stackedit]的第一份Markdown文档. 不要把我删了, 我很有用! 如果不小心把我删了, 你也可以在<i class="icon-cog"></i>菜单>设置>工具将我找出来.
 
 ----------
 
 
-Documents
+文档
 -------------
 
-StackEdit stores your documents in your browser, which means all your documents are automatically saved locally and are accessible **offline!**
+StackEdit 将你的文档保存在浏览器中, 这意味着你所有的文档都是保存在本地, 并且可以**离线!**访问
 
-> **Note:**
+> **备注:**
 
-> - StackEdit is accessible offline after the application has been loaded for the first time.
-> - Your local documents are not shared between different browsers or computers.
-> - Clearing your browser's data may **delete all your local documents!** Make sure your documents are synchronized with **Google Drive** or **Dropbox** (check out the [<i class="icon-refresh"></i> Synchronization](#synchronization) section).
+> - StackEdit 在首次加载之后就可以离线访问了.
+> - 你本地的文档将不会在不同浏览器或电脑之间共享.
+> - 清除浏览器的数据可能会**删除你所有的本地文档!** 所以请确保你的文档同步到了**Google Drive** 或 **Dropbox** (详见 [<i class="icon-refresh"></i> 同步](#synchronization) section).
 
-#### <i class="icon-file"></i> Create a document
+#### <i class="icon-file"></i> 创建文档
 
-The document panel is accessible using the <i class="icon-folder-open"></i> button in the navigation bar. You can create a new document by clicking <i class="icon-file"></i> **New document** in the document panel.
+文档面板可以通过右上角的<i class="icon-folder-open"></i>按钮访问. 你可以通过点击<i class="icon-file"></i> **新建文档** 创建一个新文档.
 
-#### <i class="icon-folder-open"></i> Switch to another document
+#### <i class="icon-folder-open"></i> 切换到另一篇文档
 
-All your local documents are listed in the document panel. You can switch from one to another by clicking a document in the list or you can toggle documents using <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
+文档面板列出本地所有的文档. 你可以通过点击不同文档进行切换, 切换快捷键 <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd>.
 
-#### <i class="icon-pencil"></i> Rename a document
+#### <i class="icon-pencil"></i> 重命名文档
 
-You can rename the current document by clicking the document title in the navigation bar.
+点击导航栏文档名称即可重命名.
 
-#### <i class="icon-trash"></i> Delete a document
+#### <i class="icon-trash"></i> 删除文档
 
-You can delete the current document by clicking <i class="icon-trash"></i> **Delete document** in the document panel.
+文档面板点击<i class="icon-trash"></i> **删除文档**.
 
-#### <i class="icon-hdd"></i> Export a document
+#### <i class="icon-hdd"></i> 导出文档
 
-You can save the current document to a file by clicking <i class="icon-hdd"></i> **Export to disk** from the <i class="icon-provider-stackedit"></i> menu panel.
+通过点击<i class="icon-provider-stackedit"></i>菜单面板<i class="icon-hdd"></i> **导出到本地硬盘** 可以将文档导出为本地文件.
 
-> **Tip:** Check out the [<i class="icon-upload"></i> Publish a document](#publish-a-document) section for a description of the different output formats.
-
-
-----------
+> **小贴士:** 详见 [<i class="icon-upload"></i> 发布文档](#publish-a-document) 有关于导出格式的描述.
 
 
-Synchronization
--------------------
+### 表格
 
-StackEdit can be combined with <i class="icon-provider-gdrive"></i> **Google Drive** and <i class="icon-provider-dropbox"></i> **Dropbox** to have your documents saved in the *Cloud*. The synchronization mechanism takes care of uploading your modifications or downloading the latest version of your documents.
-
-> **Note:**
-
-> - Full access to **Google Drive** or **Dropbox** is required to be able to import any document in StackEdit. Permission restrictions can be configured in the settings.
-> - Imported documents are downloaded in your browser and are not transmitted to a server.
-> - If you experience problems saving your documents on Google Drive, check and optionally disable browser extensions, such as Disconnect.
-
-#### <i class="icon-refresh"></i> Open a document
-
-You can open a document from <i class="icon-provider-gdrive"></i> **Google Drive** or the <i class="icon-provider-dropbox"></i> **Dropbox** by opening the <i class="icon-refresh"></i> **Synchronize** sub-menu and by clicking **Open from...**. Once opened, any modification in your document will be automatically synchronized with the file in your **Google Drive** / **Dropbox** account.
-
-#### <i class="icon-refresh"></i> Save a document
-
-You can save any document by opening the <i class="icon-refresh"></i> **Synchronize** sub-menu and by clicking **Save on...**. Even if your document is already synchronized with **Google Drive** or **Dropbox**, you can export it to a another location. StackEdit can synchronize one document with multiple locations and accounts.
-
-#### <i class="icon-refresh"></i> Synchronize a document
-
-Once your document is linked to a <i class="icon-provider-gdrive"></i> **Google Drive** or a <i class="icon-provider-dropbox"></i> **Dropbox** file, StackEdit will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be detected.
-
-If you just have modified your document and you want to force the synchronization, click the <i class="icon-refresh"></i> button in the navigation bar.
-
-> **Note:** The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.
-
-#### <i class="icon-refresh"></i> Manage document synchronization
-
-Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> **Manage synchronization** in the <i class="icon-refresh"></i> **Synchronize** sub-menu. This will let you remove synchronization locations that are associated to your document.
-
-> **Note:** If you delete the file from **Google Drive** or from **Dropbox**, the document will no longer be synchronized with that location.
-
-----------
-
-
-Publication
--------------
-
-Once you are happy with your document, you can publish it on different websites directly from StackEdit. As for now, StackEdit can publish on **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **Tumblr**, **WordPress** and on any SSH server.
-
-#### <i class="icon-upload"></i> Publish a document
-
-You can publish your document by opening the <i class="icon-upload"></i> **Publish** sub-menu and by choosing a website. In the dialog box, you can choose the publication format:
-
-- Markdown, to publish the Markdown text on a website that can interpret it (**GitHub** for instance),
-- HTML, to publish the document converted into HTML (on a blog for example),
-- Template, to have a full control of the output.
-
-> **Note:** The default template is a simple webpage wrapping your document in HTML format. You can customize it in the **Advanced** tab of the <i class="icon-cog"></i> **Settings** dialog.
-
-#### <i class="icon-upload"></i> Update a publication
-
-After publishing, StackEdit will keep your document linked to that publication which makes it easy for you to update it. Once you have modified your document and you want to update your publication, click on the <i class="icon-upload"></i> button in the navigation bar.
-
-> **Note:** The <i class="icon-upload"></i> button is disabled when your document has not been published yet.
-
-#### <i class="icon-upload"></i> Manage document publication
-
-Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-upload"></i> **Manage publication** in the <i class="icon-provider-stackedit"></i> menu panel. This will let you remove publication locations that are associated to your document.
-
-> **Note:** If the file has been removed from the website or the blog, the document will no longer be published on that location.
-
-----------
-
-
-Markdown Extra
---------------------
-
-StackEdit supports **Markdown Extra**, which extends **Markdown** syntax with some nice features.
-
-> **Tip:** You can disable any **Markdown Extra** feature in the **Extensions** tab of the <i class="icon-cog"></i> **Settings** dialog.
-
-> **Note:** You can find more information about **Markdown** syntax [here][2] and **Markdown Extra** extension [here][3].
-
-
-### Tables
-
-**Markdown Extra** has a special syntax for tables:
 
 Item     | Value
 -------- | ---
@@ -130,7 +50,7 @@ Computer | $1600
 Phone    | $12
 Pipe     | $1
 
-You can specify column alignment with one or two colons:
+可以通过冒号指定列的对齐方式:
 
 | Item     | Value | Qty   |
 | :------- | ----: | :---: |
@@ -139,46 +59,35 @@ You can specify column alignment with one or two colons:
 | Pipe     | $1    |  234  |
 
 
-### Definition Lists
+### 定义型列表
 
-**Markdown Extra** has a special syntax for definition lists too:
+名词 1
+名词 2
+:   定义 A
+:   定义 B
 
-Term 1
-Term 2
-:   Definition A
-:   Definition B
+名词 3
 
-Term 3
+:   定义 C
 
-:   Definition C
+:   定义 D
 
-:   Definition D
-
-	> part of definition D
+	> 定义D的部分内容
 
 
-### Fenced code blocks
+### 加强代码块
 
-GitHub's fenced code blocks are also supported with **Highlight.js** syntax highlighting:
 
 ```
 // Foo
 var bar = 0;
 ```
 
-> **Tip:** To use **Prettify** instead of **Highlight.js**, just configure the **Markdown Extra** extension in the <i class="icon-cog"></i> **Settings** dialog.
+### 脚注
 
-> **Note:** You can find more information:
+你可以创建脚注 [^footnote].
 
-> - about **Prettify** syntax highlighting [here][5],
-> - about **Highlight.js** syntax highlighting [here][6].
-
-
-### Footnotes
-
-You can create footnotes like this[^footnote].
-
-  [^footnote]: Here is the *text* of the **footnote**.
+  [^footnote]: 这是 **footnote** 的 *内容*.
 
 
 ### SmartyPants
@@ -192,16 +101,16 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 | Dashes           | `-- is en-dash, --- is em-dash` | -- is en-dash, --- is em-dash |
 
 
-### Table of contents
+### 目录
 
-You can insert a table of contents using the marker `[TOC]`:
+可以使用标记 `[TOC]` 插入文档目录:
 
 [TOC]
 
 
 ### MathJax
 
-You can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
+你可以使用渲染**MathJax** *LaTeX* 的数学表达式 , 可以参考 [math.stackexchange.com][1]:
 
 The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
@@ -209,18 +118,18 @@ $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
 
-> **Tip:** To make sure mathematical expressions are rendered properly on your website, include **MathJax** into your template:
+> **小贴士:** 为了确保你网站上的数学表达式能被正确显示, 记得在模板中包含**MathJax**:
 
 ```
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 ```
 
-> **Note:** You can find more information about **LaTeX** mathematical expressions [here][4].
+> **备注:** 你可以获取更多有关**LaTeX** 数学表达式的信息 [here][4].
 
 
-### UML diagrams
+### UML 图
 
-You can also render sequence diagrams like this:
+你可以得到序列图
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?
@@ -228,7 +137,7 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-And flow charts like this:
+流程图
 
 ```flow
 st=>start: Start
@@ -241,10 +150,10 @@ cond(yes)->e
 cond(no)->op
 ```
 
-> **Note:** You can find more information:
+> **备注:** 你可以了解到更多的信息:
 
-> - about **Sequence diagrams** syntax [here][7],
-> - about **Flow charts** syntax [here][8].
+> - 有关 **序列图** 语法 [here][7],
+> - 有关 **流程图** 语法 [here][8].
 
 ### Support StackEdit
 

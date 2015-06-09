@@ -10,9 +10,9 @@ define([], function() {
 	constants.DROPBOX_RESTRICTED_APP_KEY = "sw0hlixhr8q1xk0";
 	constants.DROPBOX_RESTRICTED_APP_SECRET = "1r808p2xygs6lbg";
 	constants.BITLY_ACCESS_TOKEN = "317e033bfd48cf31155a68a536b1860013b09c4c";
-	constants.DEFAULT_FILE_TITLE = "Title";
-	constants.DEFAULT_FOLDER_NAME = "New folder";
-	constants.GDRIVE_DEFAULT_FILE_TITLE = "New Markdown document";
+	constants.DEFAULT_FILE_TITLE = "未命名";
+	constants.DEFAULT_FOLDER_NAME = "新建文件夹";
+	constants.GDRIVE_DEFAULT_FILE_TITLE = "新建Markdown文档";
 	constants.EDITOR_DEFAULT_PADDING = 35;
 	constants.CHECK_ONLINE_PERIOD = 120000;
 	constants.AJAX_TIMEOUT = 30000;
@@ -23,7 +23,7 @@ define([], function() {
 	constants.IMPORT_IMG_MAX_CONTENT_SIZE = 10000000;
 	constants.COUCHDB_PAGE_SIZE = 25;
 	constants.TEMPORARY_FILE_INDEX = "file.tempIndex";
-	constants.WELCOME_DOCUMENT_TITLE = "Hello!";
+	constants.WELCOME_DOCUMENT_TITLE = "欢迎使用StackEdit编辑器";
 	constants.DOWNLOAD_IMPORT_URL = "/downloadImport";
 	constants.PICASA_IMPORT_IMG_URL = "/picasaImportImg";
 	constants.SSH_PUBLISH_URL = '/sshPublish';

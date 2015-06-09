@@ -1,83 +1,81 @@
-<button class="btn btn-success dropdown-toggle button-markdown-syntax" title="Markdown syntax" data-toggle="dropdown">
+<button class="btn btn-success dropdown-toggle button-markdown-syntax" title="Markdown语法" data-toggle="dropdown">
 	<i class="icon-help-circled"></i>
 </button>
 <div class="dropdown-menu pull-right">
-	<h3>Markdown syntax</h3>
+	<h3>Markdown语法</h3>
     <hr>
 	<div class="markdown-syntax">
-<h4>Phrase Emphasis</h4>
+<h4>重点</h4>
 
 <pre><code>*italic*   **bold**
 _italic_   __bold__
 </code></pre>
 
-<h4>Links</h4>
+<h4>链接</h4>
 
-<p>Inline:</p>
+<p>内联:</p>
 
-<pre><code>An [example](http://url.com/ "Title")
+<pre><code>一个 [example](http://url.com/ "标题")
 </code></pre>
 
-<p>Reference-style labels (titles are optional):</p>
+<p>引用风格 (标题是可选的):</p>
 
-<pre><code>An [example][id]. Then, anywhere
-else in the doc, define the link:
-
-  [id]: http://example.com/  "Title"
+<pre><code>一个 [example][id]. 然后, 文档中的其他地方, 定义链接:
+  [id]: http://example.com/  "标题"
 </code></pre>
 
-<h4>Images</h4>
+<h4>图片</h4>
 
-<p>Inline (titles are optional):</p>
+<p>内联 (标题是可选的):</p>
 
-<pre><code>![alt text](/path/img.jpg "Title")
+<pre><code>![alt text](/path/img.jpg "标题")
 </code></pre>
 
-<p>Reference-style:</p>
+<p>引用风格:</p>
 
 <pre><code>![alt text][id]
 
 [id]: /url/to/img.jpg "Title"
 </code></pre>
 
-<h4>Headers</h4>
+<h4>标题</h4>
 
-<p>Setext-style:</p>
+<p>Setext风格:</p>
 
-<pre><code>Header 1
+<pre><code>标题 1
 ========
 
-Header 2
+标题 2
 --------
 </code></pre>
 
-<p>atx-style (closing #'s are optional):</p>
+<p>atx风格 (#标记可选闭合或不闭合):</p>
 
-<pre><code># Header 1 #
+<pre><code># 标题 1 #
 
-## Header 2 ##
+## 标题 2 ##
 
-###### Header 6
+###### 标题 6
 </code></pre>
 
-<h4>Lists</h4>
+<h4>列表</h4>
 
-<p>Ordered, without paragraphs:</p>
+<p>有序, 没有段落:</p>
 
 <pre><code>1.  Foo
 2.  Bar
 </code></pre>
 
-<p>Unordered, with paragraphs:</p>
+<p>无序, 带段落:</p>
 
-<pre><code>*   A list item.
+<pre><code>*   A列表项.
 
-    With multiple paragraphs.
+    多行段落.
 
 *   Bar
 </code></pre>
 
-<p>You can nest them:</p>
+<p>可嵌套:</p>
 
 <pre><code>*   Abacus
     * answer
@@ -89,7 +87,7 @@ Header 2
 *   Cunning
 </code></pre>
 
-<h4>Blockquotes</h4>
+<h4>引用</h4>
 
 <pre><code>&gt; Email-style angle brackets
 &gt; are used for blockquotes.
@@ -102,18 +100,17 @@ Header 2
 &gt; * Etc.
 </code></pre>
 
-<h4>Code Spans</h4>
+<h4>内嵌代码</h4>
 
-<pre><code>`&lt;code&gt;` spans are delimited
-by backticks.
+<pre><code>`&lt;code&gt;` 通过反斜点分隔.
 
 You can include literal backticks
 like `` `this` ``.
 </code></pre>
 
-<h4>Preformatted Code Blocks</h4>
+<h4>代码块</h4>
 
-<p>Indent every line of a code block by at least 4 spaces or 1 tab.</p>
+<p>缩进4个空格或者1tab, 都会被渲染为代码块.</p>
 
 <pre><code>This is a normal paragraph.
 
@@ -121,9 +118,9 @@ like `` `this` ``.
     code block.
 </code></pre>
 
-<h4>Horizontal Rules</h4>
+<h4>水平分割线</h4>
 
-<p>Three or more dashes or asterisks:</p>
+<p>3个横线或星号:</p>
 
 <pre><code>---
 
@@ -132,9 +129,9 @@ like `` `this` ``.
 - - - -
 </code></pre>
 
-<h4>Manual Line Breaks</h4>
+<h4>手动换行</h4>
 
-<p>End a line with two or more spaces:</p>
+<p>通过两个或者两个以上的空格换行:</p>
 
 <pre><code>Roses are red,
 Violets are blue.

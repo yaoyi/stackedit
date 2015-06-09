@@ -52,8 +52,8 @@ define([
 				'   <h3 class="popover-title"></h3>',
 				'   <div class="popover-content"></div>',
 				'   <nav class="popover-navigation">',
-				'       <button class="btn btn-primary" data-role="next">Next</button>',
-				'       <button class="btn btn-default" data-role="end">Got it!</button>',
+				'       <button class="btn btn-primary" data-role="next">下一步</button>',
+				'       <button class="btn btn-default" data-role="end">明白啦!</button>',
 				'   </nav>',
 				'</div>'
 			].join("")
@@ -61,48 +61,48 @@ define([
 		tour.addSteps([
 			{
 				element: '.navbar-inner',
-				title: 'StackEdit 4 is out!',
+				title: 'StackEdit 4 发布了!',
 				content: [
-					'<p>I\'m very pleased to welcome you here! StackEdit keeps getting better and I hope you appreciate it.</p>',
-					'Please click <b>Next</b> to take a quick tour.'
+					'<p>很高兴你能使用这款编辑器！StackEdit一直不断改进，希望你能喜欢它.</p>',
+					'点击 <b>下一步</b> 看看都有哪些功能.'
 				].join(""),
 				placement: 'bottom'
 			},
 			{
 				element: '.document-panel .toggle-button',
-				title: 'Documents',
+				title: '文档',
 				content: [
-					'<p>The <i class="icon-folder-open"></i> <b>document panel</b> allows you to manage your local documents.</p>',
-					'<b>Tip:</b> Use <kbd>Ctrl+[</kbd> and <kbd>Ctrl+]</kbd> to toggle documents.'
+					'<p>你可以通过<i class="icon-folder-open"></i> <b>文档面板</b> 管理你的本地文档.</p>',
+					'<b>小贴士:</b> 使用 <kbd>Ctrl+[</kbd> 和 <kbd>Ctrl+]</kbd> 打开/关闭面板.'
 				].join(""),
 				placement: 'left',
 				reflex: true
 			},
 			{
 				element: '.menu-panel .toggle-button',
-				title: 'Menu',
+				title: '菜单',
 				content: [
-					'<p>The <i class="icon-provider-stackedit"></i> <b>menu panel</b> allows you to synchronize your documents on <i class="icon-provider-gdrive"></i> Google Drive, <i class="icon-provider-dropbox"></i> Dropbox or to publish them on <i class="icon-provider-github"></i> GitHub, <i class="icon-provider-blogger"></i> Blogger...</p>',
-					'<b>Tip:</b> Use the <i class="icon-provider-stackedit"></i> <b>menu panel</b> to access the settings.'
+					'<p>你可以使用<i class="icon-provider-stackedit"></i> <b>菜单面板</b> 同步你的文档</p>',
+					'<b>小贴士:</b> 通过 <i class="icon-provider-stackedit"></i> <b>菜单面板</b> 来访问各项设置.'
 				].join(""),
 				placement: 'right',
 				reflex: true
 			},
 			{
 				element: '.navbar-inner > .nav .button-open-discussion, .navbar .buttons-dropdown > .nav > .btn:not(:hidden)',
-				title: 'Comments/discussions',
+				title: '评论',
 				content: [
-					'<p>New in StackEdit 4: the <i class="icon-comment-alt"></i> <b>comments</b> button lets you create inline discussions!</p>',
-					'<b>Tip:</b> Reopen the Hello! document from Settings>Utils to discover other new features.'
+					'<p>StackEdit 4新特性: <i class="icon-comment-alt"></i> 可通过<b>评论</b> 按钮创建讨论!</p>',
+					'<b>小贴士:</b> 从菜单>设置>工具 中重新打开欢迎文档，可以查看到其他的新特性.'
 				].join(""),
 				placement: 'right',
 				reflex: true
 			},
 			{
 				element: '.navbar-inner',
-				title: 'Happy StackWriting!',
+				title: '享受写作的乐趣!',
 				content: [
-					'<p>Enjoy, and don\'t forget to rate 5 stars on the <a target="_blank" href="https://chrome.google.com/webstore/detail/stackedit/iiooodelglhkcpgbajoejffhijaclcdg/reviews">Chrome Web Store</a>...</p>',
+					'<p>亲，别忘了在<a target="_blank" href="https://chrome.google.com/webstore/detail/stackedit/iiooodelglhkcpgbajoejffhijaclcdg/reviews">Chrome Web Store</a>上给我们五星好评哦!</p>',
 					'<a href="https://twitter.com/share" class="twitter-share-button" data-url="https://stackedit.io" data-text="Great #markdown editor!" data-via="stackedit" data-size="large"></a>'
 				].join(""),
 				placement: 'bottom',
