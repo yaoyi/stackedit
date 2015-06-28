@@ -43,8 +43,8 @@ define([
 			},
 			onEnd: function() {
 				storage.welcomeTour = 'done';
-				infoTooltip('.drag-me', 'Drag me!', 'left');
-				infoTooltip('.layout-toggler-preview', 'Toggle preview', 'right');
+				infoTooltip('.drag-me', '拖动我!', 'left');
+				infoTooltip('.layout-toggler-preview', '预览', 'right');
 			},
 			template: [
 				'<div class="popover tour">',
